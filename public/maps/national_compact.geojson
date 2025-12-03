@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Example West",
+        "district": "1",
+        "map_type": "compact",
+        "dem_margin": 5,
+        "name": "Compact West 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.5, 38.5],
+            [-121.2, 38.5],
+            [-121.2, 39.8],
+            [-122.5, 39.8],
+            [-122.5, 38.5]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Example East",
+        "district": "1",
+        "map_type": "compact",
+        "dem_margin": -1,
+        "name": "Compact East 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-81.8, 33.4],
+            [-80.2, 33.4],
+            [-80.2, 34.8],
+            [-81.8, 34.8],
+            [-81.8, 33.4]
+          ]
+        ]
+      }
+    }
+  ]
+}

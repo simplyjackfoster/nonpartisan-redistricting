@@ -1,0 +1,5 @@
+state,map_type,expected_dem_seats,expected_gop_seats,efficiency_gap,seat_vote_gap,notes
+Example West,current,1,1,0.04,0.02,Current court-ordered plan
+Example West,compact,1,1,0.01,0.00,Algorithmic compactness experiment
+Example East,current,1,0,0.03,0.01,Incumbent-friendly map
+Example East,compact,1,0,0.00,0.00,Compact redraw equalizes partisanship
