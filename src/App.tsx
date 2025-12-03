@@ -5,11 +5,14 @@ import StateDetail from './pages/StateDetail';
 function App() {
   return (
     <div>
-      <header>
-        <h1>Atlas of Redistricting</h1>
+      <header className="top-bar">
+        <div className="brand">Atlas of Redistricting</div>
         <nav className="nav-links">
           <Link to="/">National</Link>
           <Link to="/state/Example%20West">Example West</Link>
+          <button className="ghost-button" type="button">
+            Show current district boundaries
+          </button>
         </nav>
       </header>
       <main className="main-shell">
